@@ -1,0 +1,17 @@
+﻿<Project Sdk="WixToolset.Sdk/4.0.0-rc.2">
+  <PropertyGroup>
+    <OutputType>Module</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="WixToolset.Heat" Version="4.0.0-rc.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
+      <Name>ClassLibrary1</Name>
+      <Private>True</Private>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>ClassLibrary1</RefTargetDir>
+      <ReferenceOutputAssembly>True</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

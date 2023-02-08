@@ -1,0 +1,10 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Module Id="MergeModule1" Guid="81c3a9ab-cd75-4420-b704-1e21c894fba8" Language="1033" Version="1.0.0.0">
+    <SummaryInformation Manufacturer="TODO Manufacturer" />
+
+    <ComponentGroupRef Id="ClassLibrary1.Binaries" />
+    <ComponentGroupRef Id="ClassLibrary1.Content" />
+    <ComponentGroupRef Id="ClassLibrary1.Satellites" />
+
+  </Module>
+</Wix>
